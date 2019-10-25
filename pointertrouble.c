@@ -6,8 +6,8 @@ int* dupPointerFix(int*);
 
 int main(void){
 	int *ptr;
-	//dupPointer(ptr);
-	int* ptr2 = dupPointerFix(ptr);  //Either return a pointer or skip the funtion altogether
+	//dupPointer(ptr);   //<---Problematic!
+	int* ptr2 = dupPointerFix(ptr);  //Either return a pointer or skip the funtion altogether > One way to fix it
 	//ptr = (int *)malloc(sizeof(int));
 	//*ptr = 5;
 	*ptr2 = 5;   //This statement is fine.
@@ -17,6 +17,10 @@ int main(void){
 	getchar();
 }
 
+/*
+Uncomment this function to reveal the troubles
+*/
+
 /*void dupPointer(int* p){
 	p = (int *)malloc(sizeof(int));
 }*/
@@ -25,4 +29,3 @@ int* dupPointerFix(int* p){
 	p = (int *)malloc(sizeof(int));
 	return p;
 }
-
