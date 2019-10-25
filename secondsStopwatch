@@ -8,7 +8,8 @@ void main(){
     printf("%x : %x : %x ",hour,minute,second);
     second++;
     if(second==60){
-      minute+=1;second=0;
+      minute+=1;
+      second=0;
     }
     if(minute==60){
       hour+=1;minute=0;
