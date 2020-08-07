@@ -27,7 +27,7 @@ Each line of the file contains the number of elements and time took to sort thos
 
 *1000&nbsp;&nbsp;&nbsp;&nbsp;0.007615*
 
-![Output showing the files generated](https://github.com/codejack-CR/Learning/blob/master/AlgorithmAnalysis/Samples/Screenshot_20200807_145624.jpeg)
+![Output showing the files generated](https://raw.githubusercontent.com/codejack-CR/Learning/master/AlgorithmAnalysis/Samples/Screenshot_20200807_145624.jpeg)
 
 _This format allows for easy plotting of the number of elements to the time taken to sort using **Octave/MATLAB** or **GNUPlot**._
 
@@ -47,9 +47,9 @@ _**Sample text files containing times and Octave scripts for plotting them are a
 3. [Comparing Heap sort and Bucket+Quick sort](https://raw.githubusercontent.com/codejack-CR/Learning/master/AlgorithmAnalysis/Samples/HeapVsBucket.m)
 
 #### Sample Plots - 
-![Plot of all sorting algos](https://github.com/codejack-CR/Learning/blob/master/AlgorithmAnalysis/Samples/Screenshot_20200807_143555.jpeg)
-![Plot of Bubble sort vs Selection sort](https://github.com/codejack-CR/Learning/blob/master/AlgorithmAnalysis/Samples/Screenshot_20200807_144042.jpeg)
-![Plot of Heap sort vs Bucket+Quick sort](https://github.com/codejack-CR/Learning/blob/master/AlgorithmAnalysis/Samples/Screenshot_20200807_184047.jpeg)
+![Plot of all sorting algos](https://raw.githubusercontent.com/codejack-CR/Learning/master/AlgorithmAnalysis/Samples/Screenshot_20200807_143555.jpeg)
+![Plot of Bubble sort vs Selection sort](https://raw.githubusercontent.com/codejack-CR/Learning/master/AlgorithmAnalysis/Samples/Screenshot_20200807_144042.jpeg)
+![Plot of Heap sort vs Bucket+Quick sort](https://raw.githubusercontent.com/codejack-CR/Learning/master/AlgorithmAnalysis/Samples/Screenshot_20200807_184047.jpeg)
 
 ### Additional Information
 The sorting algorithm used to sort the buckets in Bucket sorting is the built-in `quicksort()` in `stdlib.h` header in C. This makes our bucket sorting algorithm faster than all other algorithms. You are requested to implement some other sorting algorithm or use existing sorting algorithms as per need.
